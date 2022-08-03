@@ -45,6 +45,8 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .js-todos {
+  }
 }
 
 .todo-list {
@@ -141,7 +143,7 @@ body {
   max-width: 500px;
   border-bottom: 1px solid black;
   display: flex;
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   flex-wrap: wrap;
   justify-content: space-between;
 }
