@@ -32,7 +32,7 @@ ul {
 }
 
 body {
-  background: url(/img/background-fuji.jpg) no-repeat;
+  background: url(img/background-fuji.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
