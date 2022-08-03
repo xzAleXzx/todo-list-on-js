@@ -87,8 +87,9 @@ todosNode.addEventListener('click', (event) => {
     return;
   }
   const id = event.target.dataset.id;
-  deleteTodo(id);
   sound();
+  deleteTodo(id);
+
   render();
 });
 // вызов метода render, чтобы вывести актуальное состояние
