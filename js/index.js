@@ -75,15 +75,20 @@ btnNode.addEventListener('click', () => {
   return;
 });
 
+function sound() {
+  let audio = new Audio();
+  audio.src = 'audio/zvon.mp3';
+  audio.autoplay = true;
+}
+
 // задача сделана
 todosNode.addEventListener('click', (event) => {
   if (event.target.tagName !== 'BUTTON') {
     return;
   }
   const id = event.target.dataset.id;
-
   deleteTodo(id);
-
+  sound();
   render();
 });
 // вызов метода render, чтобы вывести актуальное состояние
